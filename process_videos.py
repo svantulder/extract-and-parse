@@ -35,6 +35,7 @@ for url in YOUTUBE_URLS:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(url, download=True)
             video_id = info_dict.get('id')
+            uploader = info_dict.get('uploader', 'Unknown Creator')
             
         print(f"Transcribing audio for {video_id}...")
         result = model.transcribe("temp_video.mp4")
