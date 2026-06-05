@@ -5,9 +5,25 @@ import os
 import subprocess
 
 YOUTUBE_URLS = [
-    "https://www.youtube.com/shorts/A-7BYaNzbLQ",
-    "https://www.youtube.com/shorts/AkOvcxFLJ7o",
-    "https://www.youtube.com/shorts/7d1BR3hAIlI"
+    # L'Oréal & Maybelline
+    "https://www.youtube.com/shorts/AvveXaQ_Ri0",
+    "https://www.youtube.com/shorts/536tG6WuqLk",
+    "https://www.youtube.com/shorts/CxtcIPXL410",
+    "https://www.youtube.com/shorts/7COizuwizFQ",
+    "https://www.youtube.com/shorts/eLimlex3Azg",
+    # e.l.f. Cosmetics
+    "https://www.youtube.com/shorts/UZqxW94AXdM",
+    "https://www.youtube.com/shorts/DKmY_7_fdE8",
+    "https://www.youtube.com/shorts/zitnZ0MGTzs",
+    "https://www.youtube.com/shorts/ET35UahoL34",
+    # Charlotte Tilbury
+    "https://www.youtube.com/shorts/UB-PevK72JE",
+    "https://www.youtube.com/shorts/ZvhGxG3Icwo",
+    "https://www.youtube.com/shorts/d---xzjHq_Q",
+    # Fenty Beauty & Rare Beauty
+    "https://www.youtube.com/shorts/CiOoItReFaw",
+    "https://www.youtube.com/shorts/HcTqbnFjbHM",
+    "https://www.youtube.com/shorts/Krxl71e2-eM"
 ]
 OUTPUT_FILE = "transcript_data.json"
 FRAMES_DIR = "frames"
