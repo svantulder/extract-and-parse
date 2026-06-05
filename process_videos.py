@@ -43,6 +43,7 @@ for url in YOUTUBE_URLS:
         video_data = {
             "video_id": video_id,
             "url": url,
+            "influencer": uploader,
             "segments": [],
             "frames": []
         }
